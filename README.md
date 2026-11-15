@@ -41,6 +41,8 @@ This bot gives every call the same treatment. Each one is scored on the same sca
 
 ## Architecture
 
+![n8n HubSpot Call Sentiment Score Routing Bot Workflow](https://raw.githubusercontent.com/dhrobinsystems/n8n-hubspot-call-sentiment-score-routing-bot/main/workflow-overview.png)
+
 ```mermaid
 flowchart LR
     A[HubSpot call completed<br/>or transcript updated] -->|POST| B[HubSpot Call Engagement Webhook]
